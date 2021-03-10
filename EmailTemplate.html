@@ -1,0 +1,869 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Templates</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font/stylesheet.css">
+    <link rel="stylesheet" href="css/Hover-master/css/hover-min.css">
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.1-web/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <main id="EmailService_wrapper" class="Email_Template_wrapper">
+        <header>
+            <div class="container-fluid p-0 ">
+                <nav class="EmailService_Nav">
+                  <div class="Left_side Nv_cmn">
+                      <div class="logo">
+                     <a href="#" style="text-decoration: none;"> <h2 class="m-0"> Bulk<span>Email</span> </h2> </a>  
+                      </div>
+                      <div class="nav-item">
+                          <ul class="m-0">
+                              <li class="F1_li"><a href="#" class="hvr-underline-from-left">Email
+                              </li>
+                              <li><a href="#" class="hvr-underline-from-left">Push</a></li>
+                              <li><a href="#" class="hvr-underline-from-left">SMTP</a></li>
+                              <li><a href="#" class="hvr-underline-from-left">ChatBots</a></li>
+                              <li><a href="#" class="hvr-underline-from-left">Email Verification</a></li>
+                          </ul>
+                      </div>
+                    
+                   </div>
+                   <div class="Right_side  Nv_cmn">
+                       <ul class="m-0 ul01">
+                           <li class="Send_Sms"><a href="#" class="hvr-underline-from-left">Send Sms</a></li>
+                           <li><a href="#" class="UserPro" title="profile">P</a></li>
+                           <!--user---profile -->
+                            <div class="UserProfile_Wrapper" id="UserProfile_Wrapper">
+                                <div class="User_headiing">
+                                    <h5>Peter</h5>
+                                    <p>peter@mamoru.com</p>
+                                    <span>ID 890002</span>
+                                </div>
+                                <div class="User_Content">
+                                    <ul>
+                                        <li class="Uf_01">
+                                            <span>Balance $5</span> <span>Add funds</span>
+                                        </li>
+                                        <li class="Uf_02"></li>
+                                        <li class="Uf_03"></li>
+                                        <li class="Uf_04"></li>
+                                        <li class="Uf_05"></li>
+                                        <li class="Uf_06"></li>
+                                        <li class="Uf_07"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- end---here -->
+                       </ul>
+                       <div class="main-bar" class="openbtn" onclick="openNav()">
+                        <div class="a1"></div>
+                        <div class="b1"></div>
+                        <div class="c1"></div>
+                    </div>
+                   </div>
+                </nav>
+            </div>
+        </header>
+    <!-- Content--section -->
+    <section class="Main_Campaign">
+     <div class="container-fluid pl-0 ml-0">
+         <div class="Campaign_content">
+             <div class="CampL1 Camp_cmn02" id="sidebar">
+                 <ul>
+                     <li class="Camp_Item1"><a href="AddCamp.html">Create a campaign
+                        <i class="fas fa-chevron-down text-white Camp_i01"></i>
+                     </a> 
+                     <div class="camp_list">
+                         <ul>
+                             <li>Email Campaign</li>
+                             <li>Send sms</li>
+                         </ul>
+                     </div>
+                    </li>
+                     <li class="Camp_Item2"><a href="mailinglist.html">
+                        <i class="far fa-address-book"></i>Mailing lists</a></li>
+                     <li class="Camp_Item3"><a href="emailservice.html">
+                        <i class="fas fa-upload"></i>My Campaigns</a></li>
+                     <li class="Camp_Item4"><a href="EmailTemplate.html">
+                        <i class="far fa-file-alt"></i>Email Templates</a></li>
+                     <li class="Camp_Item5"><a href="#">
+                        <i class="fas fa-stream"></i>Automations</a></li>
+                     <li class="Camp_Item6"><a href="#">
+                        <i class="fas fa-window-maximize"></i>Subscriptions forms</a></li>
+                     <li class="Camp_Item7"><a href="#">
+                        <i class="fas fa-sliders-h"></i>Service Settings</a></li>
+                     <li class="Camp_Item8"><a href="#">
+                        <i class="fas fa-money-check"></i>pricing Plans</a></li>
+                 </ul>
+             </div>
+             <div class="CampL2 Camp_cmn02" id="Sift1">
+                   <div class="Camp_heading">
+                       <h2>Email Templates</h2>
+                       <a href="#" class="a1"><i class="fas fa-plus-square"></i> Add a Template</a>
+                       <a href="#" class="a2"><i class="fas fa-folder-plus"></i> Image Manager</a>
+                   </div>
+                 <div class="Camp_Content">
+                     <div class="Camp_top">   
+                        <a href="#" class="List01 List_active" onclick="openList('List1')" >Personal    </a>
+                        <a href="#"  class="List01" onclick="openList('List2')">Template Library</a>
+                    </div>
+                     <div class="Child_Camp1 List" id="List1" >
+                     <div class="Template_wrp">
+                         <div class="Temp_cotent">
+                             <figure>
+                                 <!-- <img src="" alt=""> -->
+                                 <i class="fas fa-newspaper"></i>
+                                  <p class="Drag">drag & drop</p>
+                                </figure>
+                             <p>You haven't created your own templates. Go to <a href="#"> create</a> template.</p>
+                           <div class="btn02">
+                               <a href="#" type="btn" role="button" class="Ad_temp hvr-shutter-out-horizontal">Add Template</a>
+                            </div>
+                        </div>
+                     </div>
+                     </div>
+                     <div class="Child_Camp2 List" id="List2" style="display: none;">
+                       <div class="Temlate_Library_wrappper">
+                           <div class="Temp_Library_Content">
+                             <div class="top_heading">
+                                <div class="Temp_btn01 Temp_cmn03 temp_Active"  onclick="openTemp('TempTab1')">
+                                    <a href="#" type="button" role="button"> All</a>
+                                </div>
+                                <div class="Temp_btn02 Temp_cmn03" onclick="openTemp('TempTab2')"> 
+                                    <a href="#" type="button" role="button"> Bussiness</a>
+                                </div>
+                                <div class="Temp_btn03 Temp_cmn03" onclick="openTemp('TempTab3')">
+                                    <a href="#" type="button" role="button">Ecommerce</a>
+                                </div>
+                                <div class="Temp_btn04 Temp_cmn03" onclick="openTemp('TempTab4')">
+                                    <a href="#" type="button" role="button">  Education</a>
+                                </div>
+                                <div class="Temp_btn05 Temp_cmn03" onclick="openTemp('TempTab5')">
+                                    <a href="#" type="button" role="button">  Holiday</a>
+                                </div>
+                                <div class="Temp_btn06 Temp_cmn03" onclick="openTemp('TempTab6')">
+                                    <a href="#" type="button" role="button"> Other</a>
+                                </div>
+                                <div class="Temp_btn07 Temp_cmn03" onclick="openTemp('TempTab7')">
+                                    <a href="#" type="button" role="button">  Restaurant</a>
+                                </div>
+                                <div class="Temp_btn08 Temp_cmn03" onclick="openTemp('TempTab8')">
+                                    <a href="#" type="button" role="button">Travel</a>
+                                </div>
+                             </div>
+                             <!-- library---content -->
+                             <!-- 1st--library---branch -->
+                             <div class="Library_branch" id="TempTab1">
+                                 <div class="Library_child_branch">
+                                 <div class="Library_Brnch01 Lbry_cmn02">
+                                     <figure>
+                                         <img src="image/temp11.jpg" alt="image">
+                                          <p class="Drag">drag & drop</p>
+                                        </figure>
+                                     
+                                     <div class="btn_branch" onclick="handlePopup(event)">
+                                         <a href="#">Webinar Speakers</a>
+                                         <i class="fas fa-chevron-down text-dark Camp_i02"></i>
+                                     </div>
+                                     <div class="web_camp">
+                                         <ul>
+                                             <li><i class="fas fa-upload"></i> Create campaign</li>
+                                             <li><i class="fas fa-edit"></i> Edit Template</li>
+                                         </ul>
+                                     </div>
+                                 </div>
+                                 <div class="Library_Brnch02 Lbry_cmn02">
+                                    <figure>
+                                        <img src="image/temp2.jpg" alt="image">
+                                         <p class="Drag">drag & drop</p>
+                                    </figure>
+                                    <div class="btn_branch" onclick="handlePopup(event)">
+                                        <a href="#">Webinar Speakers</a>
+                                        <i class="fas fa-chevron-down text-dark Camp_i03"></i>
+                                    </div>
+                                    <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="Library_Brnch03 Lbry_cmn02">
+                                    <figure>
+                                        <img src="image/temp3.jpeg" alt="image">
+                                         <p class="Drag">drag & drop</p>
+                                    </figure>
+                                    <div class="btn_branch" onclick="handlePopup(event)">
+                                        <a href="#">Webinar Speakers</a>
+                                        <i class="fas fa-chevron-down text-dark Camp_i04"></i>
+                                    </div>
+                                    <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="Library_Brnch04 Lbry_cmn02">
+                                    <figure>
+                                        <img src="image/temp4.jpg" alt="image">
+                                         <p class="Drag">drag & drop</p>
+                                    </figure>
+                                    <div class="btn_branch" onclick="handlePopup(event)">
+                                        <a href="#">Webinar Speakers</a>
+                                        <i class="fas fa-chevron-down text-dark Camp_i05"></i>
+                                    </div>
+                                    <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="Library_Brnch05 Lbry_cmn02">
+                                    <figure>
+                                        <img src="image/temp5.jpg" alt="image">
+                                         <p class="Drag">drag & drop</p>
+                                    </figure>
+                                    <div class="btn_branch" onclick="handlePopup(event)">
+                                        <a href="#">Webinar Speakers</a>
+                                        <i class="fas fa-chevron-down text-dark Camp_i06"></i>
+                                    </div>
+                                     <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="Library_Brnch06 Lbry_cmn02">
+                                    <figure>
+                                        <img src="image/temp6.jpg" alt="image">
+                                         <p class="Drag">drag & drop</p>
+                                    </figure>
+                                    <div class="btn_branch" onclick="handlePopup(event)">
+                                        <a href="#">Webinar Speakers</a>
+                                        <i class="fas fa-chevron-down text-dark Camp_i07"></i>
+                                    </div>
+                                     <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="Library_Brnch07 Lbry_cmn02">
+                                    <figure>
+                                        <img src="image/temp7.jpg" alt="image">
+                                         <p class="Drag">drag & drop</p>
+                                    </figure>
+                                    <div class="btn_branch" onclick="handlePopup(event)">
+                                        <a href="#">Webinar Speakers</a>
+                                        <i class="fas fa-chevron-down text-dark Camp_i08"></i>
+                                    </div>
+                                     <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="Library_Brnch08 Lbry_cmn02">
+                                    <figure>
+                                        <img src="image/temp8.jpg" alt="image">
+                                         <p class="Drag">drag & drop</p>
+                                    </figure>
+                                    <div class="btn_branch" onclick="handlePopup(event)">
+                                        <a href="#">Webinar Speakers</a>
+                                        <i class="fas fa-chevron-down text-dark Camp_i09"></i>
+                                    </div>
+                                     <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="Library_Brnch09 Lbry_cmn02">
+                                    <figure>
+                                        <img src="image/temp9.jpg" alt="image">
+                                         <p class="Drag">drag & drop</p>
+                                    </figure>
+                                    <div class="btn_branch" onclick="handlePopup(event)">
+                                        <a href="#">Webinar Speakers</a>
+                                        <i class="fas fa-chevron-down text-dark Camp_i010"></i>
+                                    </div>
+                                     <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                             <!-- 1---end--here -->
+                             <!-- 2d--library --branch -->
+                             <div class="Library_branch" id="TempTab2" style="display: none;">
+                                <div class="Library_child_branch">
+                                <div class="Library_Brnch010 Lbry_cmn02">
+                                    <figure>
+                                        <img src="image/temp10.jpg" alt="image">
+                                         <p class="Drag">drag & drop</p>
+                                    </figure>
+                                    <div class="btn_branch" onclick="handlePopup(event)">
+                                        <a href="#">Webinar Speakers</a>
+                                        <i class="fas fa-chevron-down text-dark Camp_i011"></i>
+                                    </div>
+                                     <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="Library_Brnch011 Lbry_cmn02">
+                                    <figure>
+                                        <img src="image/temp12.jpg" alt="image">
+                                         <p class="Drag">drag & drop</p>
+                                    </figure>
+                                    <div class="btn_branch" onclick="handlePopup(event)">
+                                        <a href="#">Webinar Speakers</a>
+                                        <i class="fas fa-chevron-down text-dark Camp_i012"></i>
+                                    </div>
+                                     <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="Library_Brnch012 Lbry_cmn02">
+                                    <figure>
+                                        <img src="image/temp12.jpg" alt="image">
+                                         <p class="Drag">drag & drop</p>
+                                    </figure>
+                                    <div class="btn_branch" onclick="handlePopup(event)">
+                                        <a href="#">Webinar Speakers</a>
+                                        <i class="fas fa-chevron-down text-dark Camp_i013"></i>
+                                    </div>
+                                     <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                             </div>
+                            </div>
+                             <!-- 2nd--end--here -->
+                                 <!-- 3rd--library --branch -->
+                                 <div class="Library_branch" id="TempTab3" style="display: none;">
+                                    <div class="Library_child_branch">
+                                    <div class="Library_Brnch013 Lbry_cmn02">
+                                        <figure>
+                                            <img src="image/temp13.jpg" alt="image">
+                                             <p class="Drag">drag & drop</p>
+                                        </figure>
+                                        <div class="btn_branch" onclick="handlePopup(event)">
+                                            <a href="#">Webinar Speakers</a>
+                                            <i class="fas fa-chevron-down text-dark Camp_i014"></i>
+                                        </div>
+                                         <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="Library_Brnch014 Lbry_cmn02">
+                                        <figure>
+                                            <img src="image/temp14.jpg" alt="image">
+                                             <p class="Drag">drag & drop</p>
+                                        </figure>
+                                        <div class="btn_branch" onclick="handlePopup(event)">
+                                            <a href="#">Webinar Speakers</a>
+                                            <i class="fas fa-chevron-down text-dark Camp_i015"></i>
+                                        </div>
+                                         <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="Library_Brnch015 Lbry_cmn02">
+                                        <figure>
+                                            <img src="image/temp15.jpg" alt="image">
+                                             <p class="Drag">drag & drop</p>
+                                        </figure>
+                                        <div class="btn_branch" onclick="handlePopup(event)">
+                                            <a href="#">Webinar Speakers</a>
+                                            <i class="fas fa-chevron-down text-dark Camp_i016"></i>
+                                        </div>
+                                         <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="Library_Brnch014 Lbry_cmn02">
+                                        <figure>
+                                            <img src="image/temp14.jpg" alt="image">
+                                             <p class="Drag">drag & drop</p>
+                                        </figure>
+                                        <div class="btn_branch" onclick="handlePopup(event)">
+                                            <a href="#">Webinar Speakers</a>
+                                            <i class="fas fa-chevron-down text-dark Camp_i017"></i>
+                                        </div>
+                                         <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                 <!-- 3rd--end--here -->
+                                   <!-- 4th--library --branch -->
+                             <div class="Library_branch" id="TempTab4" style="display: none;">
+                                <div class="Library_child_branch">
+                                <div class="Library_Brnch010 Lbry_cmn02">
+                                    <figure>
+                                        <img src="image/temp10.jpg" alt="image">
+                                         <p class="Drag">drag & drop</p>
+                                    </figure>
+                                    <div class="btn_branch" onclick="handlePopup(event)">
+                                        <a href="#">Webinar Speakers</a>
+                                        <i class="fas fa-chevron-down text-dark Camp_i018"></i>
+                                    </div>
+                                     <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="Library_Brnch011 Lbry_cmn02">
+                                    <figure>
+                                        <img src="image/temp12.jpg" alt="image">
+                                         <p class="Drag">drag & drop</p>
+                                    </figure>
+                                    <div class="btn_branch" onclick="handlePopup(event)">
+                                        <a href="#">Webinar Speakers</a>
+                                        <i class="fas fa-chevron-down text-dark Camp_i019"></i>
+                                    </div>
+                                     <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="Library_Brnch012 Lbry_cmn02">
+                                    <figure>
+                                        <img src="image/temp12.jpg" alt="image">
+                                         <p class="Drag">drag & drop</p>
+                                    </figure>
+                                    <div class="btn_branch" onclick="handlePopup(event)">
+                                        <a href="#">Webinar Speakers</a>
+                                        <i class="fas fa-chevron-down text-dark Camp_i020"></i>
+                                    </div>
+                                     <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                             </div>
+                            </div>
+                             <!-- 4th--end--here -->
+                                <!-- 5rd--library --branch -->
+                                <div class="Library_branch" id="TempTab5" style="display: none;">
+                                    <div class="Library_child_branch">
+                                    <div class="Library_Brnch013 Lbry_cmn02">
+                                        <figure>
+                                            <img src="image/temp13.jpg" alt="image">
+                                             <p class="Drag">drag & drop</p>
+                                        </figure>
+                                        <div class="btn_branch" onclick="handlePopup(event)">
+                                            <a href="#">Webinar Speakers</a>
+                                            <i class="fas fa-chevron-down text-dark Camp_i021"></i>
+                                        </div>
+                                         <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="Library_Brnch014 Lbry_cmn02">
+                                        <figure>
+                                            <img src="image/temp14.jpg" alt="image">
+                                             <p class="Drag">drag & drop</p>
+                                        </figure>
+                                        <div class="btn_branch" onclick="handlePopup(event)">
+                                            <a href="#">Webinar Speakers</a>
+                                            <i class="fas fa-chevron-down text-dark Camp_i022"></i>
+                                        </div>
+                                         <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="Library_Brnch015 Lbry_cmn02">
+                                        <figure>
+                                            <img src="image/temp15.jpg" alt="image">
+                                             <p class="Drag">drag & drop</p>
+                                        </figure>
+                                        <div class="btn_branch" onclick="handlePopup(event)">
+                                            <a href="#">Webinar Speakers</a>
+                                            <i class="fas fa-chevron-down text-dark Camp_i023"></i>
+                                        </div>
+                                         <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="Library_Brnch014 Lbry_cmn02">
+                                        <figure>
+                                            <img src="image/temp14.jpg" alt="image">
+                                             <p class="Drag">drag & drop</p>
+                                        </figure>
+                                        <div class="btn_branch" onclick="handlePopup(event)">
+                                            <a href="#">Webinar Speakers</a>
+                                            <i class="fas fa-chevron-down text-dark Camp_i024"></i>
+                                        </div>
+                                         <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                 <!-- 5th--end--here -->
+                                   <!-- 6th--library---branch -->
+                             <div class="Library_branch" id="TempTab6" style="display: none;">
+                                <div class="Library_child_branch">
+                                <div class="Library_Brnch01 Lbry_cmn02">
+                                    <figure>
+                                        <img src="image/temp1.png" alt="image">
+                                         <p class="Drag">drag & drop</p>
+                                    </figure>
+                                    <div class="btn_branch" onclick="handlePopup(event)">
+                                        <a href="#">Webinar Speakers</a>
+                                        <i class="fas fa-chevron-down text-dark Camp_i025"></i>
+                                    </div>
+                                     <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="Library_Brnch02 Lbry_cmn02">
+                                   <figure>
+                                       <img src="image/temp2.jpg" alt="image">
+                                        <p class="Drag">drag & drop</p>
+                                    </figure>
+                                   <div class="btn_branch" onclick="handlePopup(event)">
+                                       <a href="#">Webinar Speakers</a>
+                                       <i class="fas fa-chevron-down text-dark Camp_i026"></i>
+                                   </div>
+                                    <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                               </div>
+                               <div class="Library_Brnch03 Lbry_cmn02">
+                                   <figure>
+                                       <img src="image/temp3.jpeg" alt="image">
+                                        <p class="Drag">drag & drop</p>
+                                    </figure>
+                                   <div class="btn_branch" onclick="handlePopup(event)">
+                                       <a href="#">Webinar Speakers</a>
+                                       <i class="fas fa-chevron-down text-dark Camp_i027"></i>
+                                   </div>
+                                    <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                               </div>
+                               <div class="Library_Brnch04 Lbry_cmn02">
+                                   <figure>
+                                       <img src="image/temp4.jpg" alt="image">
+                                        <p class="Drag">drag & drop</p>
+                                    </figure>
+                                   <div class="btn_branch" onclick="handlePopup(event)">
+                                       <a href="#">Webinar Speakers</a>
+                                       <i class="fas fa-chevron-down text-dark Camp_i028"></i>
+                                   </div>
+                                    <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                               </div>
+                               <div class="Library_Brnch05 Lbry_cmn02">
+                                   <figure>
+                                       <img src="image/temp5.jpg" alt="image">
+                                        <p class="Drag">drag & drop</p>
+                                    </figure>
+                                   <div class="btn_branch" onclick="handlePopup(event)">
+                                       <a href="#">Webinar Speakers</a>
+                                       <i class="fas fa-chevron-down text-dark Camp_i029"></i>
+                                   </div>
+                                    <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                               </div>
+                               <div class="Library_Brnch06 Lbry_cmn02">
+                                   <figure>
+                                       <img src="image/temp6.jpg" alt="image">
+                                        <p class="Drag">drag & drop</p>
+                                    </figure>
+                                   <div class="btn_branch" onclick="handlePopup(event)">
+                                       <a href="#">Webinar Speakers</a>
+                                       <i class="fas fa-chevron-down text-dark"></i>
+                                   </div>
+                                    <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                               </div>
+                               <div class="Library_Brnch07 Lbry_cmn02">
+                                   <figure>
+                                       <img src="image/temp7.jpg" alt="image">
+                                        <p class="Drag">drag & drop</p>
+                                    </figure>
+                                   <div class="btn_branch" onclick="handlePopup(event)">
+                                       <a href="#">Webinar Speakers</a>
+                                       <i class="fas fa-chevron-down text-dark Camp_i031"></i>
+                                   </div>
+                                    <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                               </div>
+                             </div>
+                           </div>
+                            <!-- 6---end--here -->
+                                   <!-- 7th--library --branch -->
+                                   <div class="Library_branch" id="TempTab7" style="display: none;">
+                                    <div class="Library_child_branch">
+                                    <div class="Library_Brnch010 Lbry_cmn02">
+                                        <figure>
+                                            <img src="image/temp10.jpg" alt="image">
+                                             <p class="Drag">drag & drop</p>
+                                        </figure>
+                                        <div class="btn_branch" onclick="handlePopup(event)">
+                                            <a href="#">Webinar Speakers</a>
+                                            <i class="fas fa-chevron-down text-dark Camp_i032"></i>
+                                        </div>
+                                         <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="Library_Brnch011 Lbry_cmn02">
+                                        <figure>
+                                            <img src="image/temp12.jpg" alt="image">
+                                             <p class="Drag">drag & drop</p>
+                                        </figure>
+                                        <div class="btn_branch" onclick="handlePopup(event)">
+                                            <a href="#">Webinar Speakers</a>
+                                            <i class="fas fa-chevron-down text-dark Camp_i033"></i>
+                                        </div>
+                                         <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="Library_Brnch012 Lbry_cmn02">
+                                        <figure>
+                                            <img src="image/temp12.jpg" alt="image">
+                                             <p class="Drag">drag & drop</p>
+                                        </figure>
+                                        <div class="btn_branch" onclick="handlePopup(event)">
+                                            <a href="#">Webinar Speakers</a>
+                                            <i class="fas fa-chevron-down text-dark Camp_i034"></i>
+                                        </div>
+                                         <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="Library_Brnch06 Lbry_cmn02">
+                                        <figure>
+                                            <img src="image/temp6.jpg" alt="image">
+                                             <p class="Drag">drag & drop</p>
+                                        </figure>
+                                        <div class="btn_branch" onclick="handlePopup(event)">
+                                            <a href="#">Webinar Speakers</a>
+                                            <i class="fas fa-chevron-down text-dark Camp_i035"></i>
+                                        </div>
+                                         <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="Library_Brnch07 Lbry_cmn02">
+                                        <figure>
+                                            <img src="image/temp7.jpg" alt="image">
+                                             <p class="Drag">drag & drop</p>
+                                        </figure>
+                                        <div class="btn_branch" onclick="handlePopup(event)">
+                                            <a href="#">Webinar Speakers</a>
+                                            <i class="fas fa-chevron-down text-dark Camp_i036"></i>
+                                        </div>
+                                         <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                 </div>
+                                </div>
+                                 <!-- 7th--end--here -->
+                                     <!-- 8--library --branch -->
+                                <div class="Library_branch" id="TempTab8" style="display: none;">
+                                    <div class="Library_child_branch">
+                                    <div class="Library_Brnch013 Lbry_cmn02">
+                                        <figure>
+                                            <img src="image/temp13.jpg" alt="image">
+                                             <p class="Drag">drag & drop</p>
+                                        </figure>
+                                        <div class="btn_branch" onclick="handlePopup(event)">
+                                            <a href="#">Webinar Speakers</a>
+                                            <i class="fas fa-chevron-down text-dark Camp_i037"></i>
+                                        </div>
+                                         <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="Library_Brnch014 Lbry_cmn02">
+                                        <figure>
+                                            <img src="image/temp14.jpg" alt="image">
+                                             <p class="Drag">drag & drop</p>
+                                        </figure>
+                                        <div class="btn_branch" onclick="handlePopup(event)">
+                                            <a href="#">Webinar Speakers</a>
+                                            <i class="fas fa-chevron-down text-dark Camp_i038"></i>
+                                        </div>
+                                         <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="Library_Brnch015 Lbry_cmn02">
+                                        <figure>
+                                            <img src="image/temp15.jpg" alt="image">
+                                             <p class="Drag">drag & drop</p>
+                                        </figure>
+                                        <div class="btn_branch" onclick="handlePopup(event)">
+                                            <a href="#">Webinar Speakers</a>
+                                            <i class="fas fa-chevron-down text-dark Camp_i039"></i>
+                                        </div>
+                                         <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <div class="Library_Brnch014 Lbry_cmn02">
+                                        <figure>
+                                            <img src="image/temp14.jpg" alt="image">
+                                             <p class="Drag">drag & drop</p>
+                                        </figure>
+                                        <div class="btn_branch" onclick="handlePopup(event)">
+                                            <a href="#">Webinar Speakers</a>
+                                            <i class="fas fa-chevron-down text-dark Camp_i040"></i>
+                                        </div>
+                                         <div class="web_camp">
+                                        <ul>
+                                            <li><i class="fas fa-upload"></i> Create campaign</li>
+                                            <li><i class="fas fa-edit"></i> Edit Template</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                 <!-- 8--end--here -->
+                           </div>
+                       </div>
+                     </div>                    
+                 </div>
+                 <!-- copy-right -->
+             <div class="Copy--right">
+                <div class="Content">
+                   <div class="Cpy_Cnt01 Cpy_cmn02">
+                   <a href="#">Support</a> 
+                   <a href="#">Knowledge Base</a> 
+                   <a href="#">Refer a Friend</a> 
+                   <a href="#">Privacy Policy</a> 
+                   <a href="#">Special Offers from Our Partners </a> 
+                  </div>
+                   <div class="Cpy_Cnt02 Cpy_cmn02">
+                       <a href="#">
+                           Leave Feedback
+                       </a>
+                   </div>
+                </div>
+            </div>
+             </div>
+             
+         </div>
+     </div>
+    </section>
+    <!-- End---here----Content--- -->
+    </main>
+
+
+      <!-- script---section -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/main.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>

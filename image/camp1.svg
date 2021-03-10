@@ -1,0 +1,24 @@
+<svg width="132" height="132" viewBox="0 0 132 132" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M37 121H77" stroke="#009FC1" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M84 121H95" stroke="#009FC1" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M26 40H28" stroke="#009FC1" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M29 40H31" stroke="#009FC1" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M32 40H34" stroke="#009FC1" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M37 40H68" stroke="#009FC1" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M110 95V114H22V45H110V54" stroke="#009FC1" stroke-width="2" stroke-miterlimit="10"/>
+<rect x="23" y="46" width="20" height="67" fill="#C4EBFC"/>
+<path d="M39 79H28" stroke="#009FC1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
+<path d="M39 85H28" stroke="#009FC1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
+<path d="M39 73H28" stroke="#009FC1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
+<path d="M39 67H28" stroke="#009FC1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
+<path d="M39 61H28" stroke="#009FC1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
+<path d="M39 55H28" stroke="#009FC1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="square"/>
+<rect x="79" y="56" width="52" height="37" stroke="#009FC1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M112.959 75.158C123.199 81.5734 131 93 131 93H79C79 93 86.9302 81.3838 97.2952 75" stroke="#009FC1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M79 56H131C131 56 118.867 74.2439 105 78C91.1333 74.2439 79 56 79 56Z" fill="#C4EBFC" stroke="#009FC1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M73 80H56" stroke="#009FC1" stroke-width="2" stroke-linejoin="round"/>
+<path d="M73 68H61" stroke="#009FC1" stroke-width="2" stroke-linejoin="round"/>
+<path d="M73 74H66" stroke="#009FC1" stroke-width="2" stroke-linejoin="round"/>
+<path d="M110 45H22V39C22 36.8 23.584 35 25.52 35H106.48C108.416 35 110 36.8 110 39V45Z" stroke="#009FC1" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M0 114H132" stroke="#009FC1" stroke-width="2" stroke-miterlimit="10"/>
+</svg>

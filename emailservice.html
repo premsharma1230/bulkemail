@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulk mail</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font/stylesheet.css">
+    <link rel="stylesheet" href="css/Hover-master/css/hover-min.css">
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.1-web/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <main id="EmailService_wrapper">
+        <header>
+            <div class="container-fluid p-0 ">
+                <nav class="EmailService_Nav">
+                  <div class="Left_side Nv_cmn">
+                      <div class="logo">
+                     <a href="#" style="text-decoration: none;"> <h2 class="m-0"> Bulk<span>Email</span> </h2> </a>  
+                      </div>
+                      <div class="nav-item">
+                          <ul class="m-0">
+                              <li class="F1_li"><a href="#" class="hvr-underline-from-left">Email
+                              </li>
+                              <li><a href="#" class="hvr-underline-from-left">Push</a></li>
+                              <li><a href="#" class="hvr-underline-from-left">SMTP</a></li>
+                              <li><a href="#" class="hvr-underline-from-left">ChatBots</a></li>
+                              <li><a href="#" class="hvr-underline-from-left">Email Verification</a></li>
+                          </ul>
+                      </div>
+                    
+                   </div>
+                   <div class="Right_side  Nv_cmn">
+                       <ul class="m-0 ul01">
+                           <li class="Send_Sms"><a href="#" class="hvr-underline-from-left">Send Sms</a></li>
+                           <li><a href="#" class="UserPro" title="profile">P</a></li>
+                           <!--user---profile -->
+                            <div class="UserProfile_Wrapper" id="UserProfile_Wrapper">
+                                <div class="User_headiing">
+                                    <h5>Peter</h5>
+                                    <p>peter@mamoru.com</p>
+                                    <span>ID 890002</span>
+                                </div>
+                                <div class="User_Content">
+                                    <ul>
+                                        <li class="Uf_01">
+                                            <span>Balance $5</span> <span>Add funds</span>
+                                        </li>
+                                        <li class="Uf_02"></li>
+                                        <li class="Uf_03"></li>
+                                        <li class="Uf_04"></li>
+                                        <li class="Uf_05"></li>
+                                        <li class="Uf_06"></li>
+                                        <li class="Uf_07"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- end---here -->
+                       </ul>
+                       <div class="main-bar" class="openbtn" onclick="openNav()">
+                        <div class="a1"></div>
+                        <div class="b1"></div>
+                        <div class="c1"></div>
+                    </div>
+                   </div>
+                </nav>
+            </div>
+        </header>
+    <!-- Content--section -->
+    <section class="Main_Campaign">
+     <div class="container-fluid pl-0 ml-0">
+         <div class="Campaign_content">
+             <div class="CampL1 Camp_cmn02" id="sidebar">
+                 <ul>
+                     <li class="Camp_Item1"><a href="AddCamp.html">Create a campaign
+                        <i class="fas fa-chevron-down text-white Camp_i01"></i>
+                     </a> 
+                     <div class="camp_list">
+                         <ul>
+                             <li>Email Campaign</li>
+                             <li>Send sms</li>
+                         </ul>
+                     </div>
+                    </li>
+                     <li class="Camp_Item2"><a href="mailinglist.html">
+                        <i class="far fa-address-book"></i>Mailing lists</a></li>
+                     <li class="Camp_Item3"><a href="emailservice.html">
+                        <i class="fas fa-upload"></i>My Campaigns</a></li>
+                     <li class="Camp_Item4"><a href="EmailTemplate.html">
+                        <i class="far fa-file-alt"></i>Email Templates</a></li>
+                     <li class="Camp_Item5"><a href="#">
+                        <i class="fas fa-stream"></i>Automations</a></li>
+                     <li class="Camp_Item6"><a href="#">
+                        <i class="fas fa-window-maximize"></i>Subscriptions forms</a></li>
+                     <li class="Camp_Item7"><a href="#">
+                        <i class="fas fa-sliders-h"></i>Service Settings</a></li>
+                     <li class="Camp_Item8"><a href="#">
+                        <i class="fas fa-money-check"></i>pricing Plans</a></li>
+                 </ul>
+             </div>
+             <div class="CampL2 Camp_cmn02" id="Sift1">
+                   <div class="Camp_heading">
+                       <h2>All Campaigns</h2>
+                       <a href="#" class="a1">New Campaign</a>
+                       <a href="#" class="a2">Send Sms</a>
+                   </div>
+                 <div class="Camp_Content">
+                     <div class="Camp_top">   
+                        <a href="#" class="List01 List_active" onclick="openList('List1')" >List of Reports</a>
+                        <a href="#"  class="List01" onclick="openList('List2')">Analytics</a>
+                    </div>
+                     <div class="Child_Camp1 List" id="List1" >
+                        <div class="Sub_wrp">
+                         <div class="F01  F0002_cmn02">
+                             <a href="javascript:void(0)" class="hvr-underline-from-center F_ankr Filter">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                <span>filter</span> 
+                             </a>
+                             <p>
+                                 <span>From: August 5, 2020</span>
+                                 <span>To: December 5, 2020</span>
+     
+                            </p>
+                            <!--Search---form -->
+                            <div class="Search_form" id="Search_form">
+                                <div class="SForm_wrp">
+                                    <form action="#" method="post">
+                                    <div class="Fst_one_wrp">
+                                        <div class="S_list01 SrFrm_Cmn04">
+                                            <label for="#">
+                                                From
+                                                <input type="date" value="10-08-2020"  data-defaultval="10-08-2020" name="date" id="dateF1">
+                                            </label>
+                                        </div>
+                                        <div class="S_list02 SrFrm_Cmn04">
+                                            <label for="#"> 
+                                              To
+                                                <input type="date" value="10-08-2020"  data-defaultval="10-08-2020" name="date" id="dateF1">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!--  -->
+                                        <div class="Days_list">
+                                            <a href="#">last 7 days </a>
+                                            <a href="#">last 30 days </a>
+                                            <a href="#">For a quarter</a>
+                                            <a href="#">From the beginnings </a>
+                                        </div>
+                                        <!--  -->
+                                        <div class="tab_list">
+                                            <a href="#">All</a>
+                                            <a href="#">Email</a>
+                                            <a href="#">Sms</a>
+                                        </div>
+                                        <!--  -->
+                                        <div class="Search_camp_wrp">
+                                            <div class="Srch01 Srch_cm02">
+                                                <label for="#">
+                                                    Search by campaign name
+                                                    <input type="text" name="camp1" id="SearchCampaign" autocomplete="off"  placeholder="Campaign Name"required>
+                                                </label>
+                                            </div>
+                                            <div class="Srch02 Srch_cm02">
+                                                <label for="#">
+                                                  Mailing list name
+                                                  <input type="text" name="Mailing" id="Mailing" autocomplete="off" placeholder="List Name" required>
+                                                </label>
+                                            </div>
+                                            <div class="Srch03 Srch_cm02">
+                                                <label for="#">
+                                                    Search by email
+                                                    <input type="text" name="SearchEmail" id="SearchEmail" autocomplete="off" placeholder="Search by email" required>
+                                                </label>
+                                            </div>
+                                            <div class="Srch04 Srch_cm02">
+                                                <label for="#">
+                                                    Search by phone
+                                                    <input type="number" name="phone" id="number" placeholder="phone number" required>
+                                                </label>
+                                            </div>
+                                            <div class="Srch05">
+                                                <label for="#">
+                                                    Sender email
+                                                    <input type="text" name="SederEmail" id="SenderEmail" placeholder="Sender Email" autocomplete="off" required>
+                                                </label>
+                                            </div>
+                                            <div class="Srch06">
+                                                    <input type="checkbox" name="checkbox2">
+                                                    Hide email campaigns to less than
+                                                    <select name="Select2" id="Select2">
+                                                        <option value="10">10</option>
+                                                        <option value="10">20</option>
+                                                        <option value="10">30</option>
+                                                        <option value="10">40</option>
+                                                    </select>
+                                                    recipients
+                                            </div>
+                                        </div>
+                                        <!-- btn -->
+                                        <div class="Form_Btn_wrapper">
+                                            <div class="F_btn1" onclick="document.getElementById('Search_form').style.display='none'">
+                                                <input type="submit" value="Cancel" class="cancel">
+                                            </div>
+                                            <div class="F_btn1">
+                                                <input type="submit" value="Submit" class="Submit2">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- end---here -->
+                          </div>
+                         <div class="F02 F0002_cmn02">
+                             <div class="Exprt">
+                                <p><i class="fas fa-file-download"></i> Export</p>
+                               <div class="export_title">
+                                   <p>Available on paid plan only</p>
+                                   <span></span>
+                               </div>
+                            </div>
+                             <div class="Option">
+                                 <select name="#" id="Slt">
+                                     <option value="#">Date of last email(descending)</option>
+                                     <option value="#">Number of message</option>
+                                     <option value="#">Date of last email(ascending)</option>
+                                     <option value="#">Date of last email(descending)</option>
+                                 </select>
+                             </div>
+                         </div>
+                        </div>
+                         <!-- counter--report -->
+                     <div class="Cntr_report row text-center">
+                        <div class="R01 Rcmn02 col-sm-3 col-md-2">
+                            <h5>1</h5>
+                            <span>sent</span>  
+                        </div>
+                        <div class="R02 Rcmn02 col-sm-3 col-md-2">
+                           <h5>1</h5>
+                           <span class="counter">100% delivered</span>  
+                       </div>
+                       <div class="R03 Rcmn02 col-sm-3 col-md-2">
+                           <h5>0</h5>
+                           <span>opens</span>  
+                       </div>
+                       <div class="R04 Rcmn02 col-sm-3 col-md-2">
+                           <h5>0</h5>
+                           <span>click-throughs</span>  
+                       </div>
+                       <div class="R05 Rcmn02 col-sm-3 col-md-2">
+                           <h5>0</h5>
+                           <span>unsubscribed</span>  
+                       </div>
+                       <div class="R06 Rcmn02 col-sm-3 col-md-2">
+                           <h5>0</h5>
+                           <span>errors</span>  
+                       </div>
+                    </div>
+                    <!-- end--here -->
+                      <!-- User_field -->
+                      <div class="Main-User_field">
+                         <div class="Child_userField">
+                             <div class="user-0">
+                                <span>
+                                    @
+                                </span>
+                                <!-- block-list -->
+                                  <div class="messge-popup" id="id01">
+                                      <p> sent<b> : 1</b></p>
+                                      <p>Successfully delivered<b> : 1 ( 100 % )</b> </p>
+                                      <!-- <a href="#" onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">X</a>--> 
+                                </div> 
+                                <!-- end-here -->
+                             </div>
+                          <div class="User01">
+                              <span>December 3, 2020 16:41</span>
+                              <a href="javascript.void(0)">User Subject</a>
+                              <p>Email (1)</p>
+                          </div>
+                          <div class="User02">
+                              <div class="Field-01 Field_cmn-01">
+                                 <span>1</span>
+                                 <p>delivered</p>
+                              </div>
+                              <div class="Field-02 Field_cmn-01">
+                                <span>0</span>
+                                <p>Opens</p>
+                             </div>
+                             <div class="Field-03 Field_cmn-01">
+                                <span>0</span>
+                                <p>click-throughs</p>
+                             </div>
+                           </div>
+                           <div class="setting">
+                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                           </div>
+                           <hr class="hr1"> 
+                           <!-- setting-pop--up -->
+                           <div class="Setting-child" id="Setting-child">
+                            <ul>
+                                <span></span>
+                                <li>Static</li>
+                                <li> Campaign over View</li>
+                                <li>copy to new campaign</li>
+                                <li>Send email to unreads</li>
+                                <li> Campaign over View</li>
+                            </ul>
+                        </div>
+                         </div>
+                      </div>
+                      <!-- end--here -->
+                     </div>
+                     <div class="Child_Camp2 List" id="List2" style="display: none;">
+                         <p class="py-5">Loading....</p>
+                     </div>
+                    
+                 </div>
+                 <!-- copy-right -->
+             <div class="Copy--right">
+                <div class="Content">
+                   <div class="Cpy_Cnt01 Cpy_cmn02">
+                   <a href="#">Support</a> 
+                   <a href="#">Knowledge Base</a> 
+                   <a href="#">Refer a Friend</a> 
+                   <a href="#">Privacy Policy</a> 
+                   <a href="#">Special Offers from Our Partners </a> 
+                  </div>
+                   <div class="Cpy_Cnt02 Cpy_cmn02">
+                       <a href="#">
+                           Leave Feedback
+                       </a>
+                   </div>
+                </div>
+            </div>
+             </div>
+             
+         </div>
+     </div>
+    </section>
+    <!-- End---here----Content--- -->
+    </main>
+
+
+      <!-- script---section -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/main.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>

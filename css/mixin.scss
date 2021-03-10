@@ -1,0 +1,219 @@
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@mixin  Lg_Sg {
+    a {
+        background: #ffffff29!important;
+        padding: 7px 12px;
+        color: #fff;transition: all .3s ease-in-out;
+        border-radius: 5px;
+        border: 1px solid #ffffff29;
+        &:hover{
+          border:1px solid rgba(255, 255, 255, 0.534);
+          transition: all .3s ease-in-out;
+          background: transparent!important;
+        }
+    }
+}
+
+  // font----area-----//
+  $font-Logo: 'Choplin ExtraLight';
+  $Font-headings:'Gotham Pro bold';
+  $font-Regular:'Gotham Pro Regular';
+  $p:#787878;
+  $Secondary: #2c3e50;
+  $transition:all .3s ease-in-out;
+  $between:space-between!important;
+  $around:space-around!important;
+  $inherit: inherit!important;
+  ///
+  $theme-signup: #03A9F4;
+$theme-signup-darken: #0288D1;
+$theme-signup-background: #2C3034;
+$theme-login: #673AB7;
+$theme-login-darken: #512DA8;
+$theme-login-background: #f9f9f9;
+$theme-dark: #212121;
+$theme-light: #e3e3e3;
+$font-default: 'Roboto', sans-serif;
+
+$success: #5cb85c;
+$error: #d9534f;
+  //-----Template----Library---//
+
+@mixin TemplateLibrary{
+  .Temp_Library_Content{
+    width: 80%;
+    .top_heading{
+        margin: 2rem 0 1rem;
+        @include flex;
+        justify-content: flex-start!important;
+        .Temp_cmn03{
+            margin: 0 1rem 0 0;
+            a{
+                padding: .5rem 1rem;
+                background: #2c3e50;
+                background: #3f51b5;
+                text-decoration: none;
+                color: #fff;
+                text-transform: capitalize;
+                border-radius: 5px;
+                box-shadow: 0px 1px 0 0 #00000061;
+                border-bottom: 2px solid #000;
+                transition: $transition;
+            }
+        }
+        .temp_Active a {
+            background: #5a46cd!important;
+            box-shadow: 0px 1px 0px 1px #00000061;
+            border-bottom: 0px solid #000;
+            transition: $transition;
+        }
+    }
+
+    // ---Library--branch0----//
+
+.Library_branch{
+    .Library_child_branch{
+    @include flex;
+    justify-content: space-between!important;
+    .Lbry_cmn02{
+        width: 250px;
+        height: auto;
+        background: #fff;
+        border-radius: 5px;
+        padding: 0.8rem 0.8rem;
+        margin: 1rem 0;
+        position: relative;
+        figure{
+            height: 250px;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+            transition: $transition;
+            .Drag{
+                padding: .3rem 1.2rem;
+                font-size: 12px;
+                text-transform: capitalize;
+                color: #fff;
+                background: #3f51b5;
+                position: absolute;
+                top: 5px;
+                left: -6px;
+                border-radius: 4px;
+                z-index: 18;
+                display: none;
+            }
+            img{
+                width: 100%;
+                transition: $transition;
+                // &:hover{
+                //   transition: $transition;
+                //   transform: scale(1.1);
+                // }
+            }
+            &:hover{
+                opacity: .75;
+                transition: $transition;
+            }
+            &:hover .Drag{
+                display: block!important;
+            }
+        }
+        .btn_branch{
+            border: 1px solid #00000029;
+            margin: 1rem 1rem;
+            padding: .3rem .3rem .3rem 0;
+            border-radius: 5px;
+            transition: $transition;
+            &:hover{
+                box-shadow: 0 0px 2px 2px #3f51b514;
+                transition: $transition;
+            }
+            a{
+                text-decoration: none;
+                color: #000;
+                text-transform: capitalize;
+                cursor: pointer;
+                padding: .5rem .5rem .5rem .2rem;
+                background: #3f51b512;//#a797fe29;
+                border-radius: 2px;
+                border-right: 1px solid #00000029;
+            }
+            i.fas.fa-chevron-down{
+                padding: .0rem 0px 0px 6px;
+                cursor: pointer!important;
+                transition: $transition;
+                &:hover{
+                    transform: rotateX(180deg);
+                    transition: $transition;
+                }
+            }
+         }
+        // --web--temp--/
+        .web_camp{
+            position: absolute;
+            bottom: -108px;
+            background: #fff;
+            z-index: 2;
+            width: 205px;
+            background: #F1F3FA;
+            border-radius: 5px;
+            box-shadow: 0 1px 6px 0px #00000075;
+            display: none;
+            ul{
+                margin: 0;
+                padding: 6px;
+                position: relative;
+                &::before{
+                    content: '';
+                    width: 15px;
+                    height: 15px;
+                    background: #F1F3FA;
+                    position: absolute;
+                    transition: $transition;
+                    transform: rotate(45deg);
+                    top: -7px;
+                    right: 10px;
+                    z-index: -1;
+                }
+                li:first-child{
+                     margin: 0 0 .3rem 0;
+                }
+             
+            li{
+                padding: .7rem .5rem .7rem 1.3rem;
+                list-style-type: none;
+                cursor: pointer;
+                background: #f8f9fa;//#9d8bfd1a;
+                border-radius: 5px;
+                text-transform: capitalize;
+                transition: $transition;
+                &:hover{
+                    background: transparent;
+                    transition: $transition;
+                }
+                i{
+                    padding: 0 1rem 0  0;
+                    color: #9082dc;
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+          }
+        }
+       }
+    }
+  }
+}
+}
+
+
+// stylelint-disable
+// 
+
+
+
